@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/RandomCard"
+            android:layout_width="match_parent"
+            android:layout_height="273dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="242dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="141dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center_vertical"
+
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="랜덤으로 번호 뽑기" />
+
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="141dp"
+                        android:layout_height="35dp"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="176dp"
+                    android:layout_height="234dp"
+                    android:layout_gravity="center|right"
+                    app:srcCompat="@drawable/lotto" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="242dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="205dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="176dp"
+                    android:layout_height="234dp"
+                    android:layout_gravity="center|right"
+                    app:srcCompat="@drawable/lotto" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="236dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="275dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="242dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:text="TextView" />
+
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="match_parent"
+                        android:layout_height="46dp"
+                        android:text="TextView" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="176dp"
+                    android:layout_height="234dp"
+                    android:layout_gravity="center|right"
+                    app:srcCompat="@drawable/lotto" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
